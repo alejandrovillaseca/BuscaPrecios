@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entities
+{
+    public class Stats
+    {
+        public int Id { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public DateTime? FechaFin { get; set; }
+        public TimeSpan? Duracion { get; set; }
+        public int? CantidadProductos { get; set; }
+        public bool? Cargado { get; set; }
+        public string Observacion { get; set; }
+        public int? IdURL { get; set; }
+        public int Sistema { get; set; }
+    }
+}

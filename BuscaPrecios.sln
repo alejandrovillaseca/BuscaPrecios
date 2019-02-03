@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuscaPrecios.API", "BuscaPrecios\BuscaPrecios.API.csproj", "{C2173798-2F5D-43BE-A2F2-B6C658FB405F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller", "Controller\Controller.csproj", "{B4A6BD95-1FDB-41E3-A3EF-1602D5711C62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{4FF7D4FB-4D5F-49AB-B28B-BEB6E7A11CDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Component", "Component\Component.csproj", "{13B5F507-6586-40AF-80A2-85B2F05C7DA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework\Framework.csproj", "{D5BA1C53-CE1F-4F0E-A48E-4EEC663E98EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1484642D-D353-4176-A54F-28221BB3A39F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Handlers", "Handlers\Handlers.csproj", "{0A47C983-674F-4409-A1A0-874C68A6AEE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2173798-2F5D-43BE-A2F2-B6C658FB405F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2173798-2F5D-43BE-A2F2-B6C658FB405F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2173798-2F5D-43BE-A2F2-B6C658FB405F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2173798-2F5D-43BE-A2F2-B6C658FB405F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A6BD95-1FDB-41E3-A3EF-1602D5711C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A6BD95-1FDB-41E3-A3EF-1602D5711C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A6BD95-1FDB-41E3-A3EF-1602D5711C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A6BD95-1FDB-41E3-A3EF-1602D5711C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF7D4FB-4D5F-49AB-B28B-BEB6E7A11CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF7D4FB-4D5F-49AB-B28B-BEB6E7A11CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF7D4FB-4D5F-49AB-B28B-BEB6E7A11CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF7D4FB-4D5F-49AB-B28B-BEB6E7A11CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B5F507-6586-40AF-80A2-85B2F05C7DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B5F507-6586-40AF-80A2-85B2F05C7DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B5F507-6586-40AF-80A2-85B2F05C7DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B5F507-6586-40AF-80A2-85B2F05C7DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BA1C53-CE1F-4F0E-A48E-4EEC663E98EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BA1C53-CE1F-4F0E-A48E-4EEC663E98EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BA1C53-CE1F-4F0E-A48E-4EEC663E98EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BA1C53-CE1F-4F0E-A48E-4EEC663E98EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1484642D-D353-4176-A54F-28221BB3A39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1484642D-D353-4176-A54F-28221BB3A39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1484642D-D353-4176-A54F-28221BB3A39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1484642D-D353-4176-A54F-28221BB3A39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A47C983-674F-4409-A1A0-874C68A6AEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A47C983-674F-4409-A1A0-874C68A6AEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A47C983-674F-4409-A1A0-874C68A6AEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A47C983-674F-4409-A1A0-874C68A6AEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578F1DE3-2703-44DE-83AC-1D21EF8EBD52}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://alejandrovs88.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BuscaPrecios\\BuscaPrecios.API.csproj
+		SccProjectName1 = BuscaPrecios
+		SccLocalPath1 = BuscaPrecios
+		SccProjectUniqueName2 = Component\\Component.csproj
+		SccProjectName2 = Component
+		SccLocalPath2 = Component
+		SccProjectUniqueName3 = Controller\\Controller.csproj
+		SccProjectName3 = Controller
+		SccLocalPath3 = Controller
+		SccProjectUniqueName4 = DataAccess\\DataAccess.csproj
+		SccProjectName4 = DataAccess
+		SccLocalPath4 = DataAccess
+		SccProjectUniqueName5 = Entities\\Entities.csproj
+		SccProjectName5 = Entities
+		SccLocalPath5 = Entities
+		SccProjectUniqueName6 = Framework\\Framework.csproj
+		SccProjectName6 = Framework
+		SccLocalPath6 = Framework
+		SccProjectUniqueName7 = Handlers\\Handlers.csproj
+		SccProjectName7 = Handlers
+		SccLocalPath7 = Handlers
+	EndGlobalSection
+EndGlobal
